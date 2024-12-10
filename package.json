@@ -1,0 +1,28 @@
+{
+  "name": "api_simple",
+  "version": "1.0.0",
+  "description": "simple api task",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node_modules/.bin/nodemon --exec babel-node src/server.js",
+    "test": "ava"
+  },
+  "keywords": [
+    "Espress",
+    "JS"
+  ],
+  "author": "Nicholas Otieno",
+  "license": "MIT",
+  "dependencies": {
+    "body-parse": "^0.1.0",
+    "body-parser": "^1.20.3",
+    "express": "^4.21.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.26.0",
+    "@babel/node": "^7.26.0",
+    "@babel/preset-env": "^7.26.0",
+    "ava": "^6.2.0",
+    "nodemon": "^3.1.7"
+  }
+}
